@@ -9,8 +9,8 @@
 
 public class Arr_q12 {
  public static void main(String[] args) {
-    int arr[] = {0,0,1,1,0};
-
+    int arr[] = {0,0,1,1,0,1};
+  
        int totalZero = 0;
        int totalOnes = 0;
        int n = arr.length;
@@ -32,6 +32,8 @@ public class Arr_q12 {
  for(int ele: arr){
     System.out.print(ele);
  }
+
+
   
  }
 }
