@@ -5,7 +5,7 @@ public class Arr_q7 {
     public static void main(String[] args) {
         int[] arr = { 2,-3,-5, 6, 8 , 5};
         int target = 2;
-       int  result =0 ;
+       int  result = 0 ;
         for(int i =0; i<arr.length; i++ ){
           for(int j = 1; j<arr.length; j++ ){
             if(arr[i] + arr[j] == target){
@@ -14,8 +14,6 @@ public class Arr_q7 {
             }
             
           }
-          
-
         }
         if (result==target){
          System.out.println("yes target matched : "+ result);
