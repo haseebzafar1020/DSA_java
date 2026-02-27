@@ -33,7 +33,7 @@ for(int ele : krr){
                 k++;
             }
             else{
-                krr[k] =brr[j];
+                krr[k] = brr[j];
                 j++;
                 k++;
             }

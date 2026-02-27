@@ -42,5 +42,5 @@ public class Arr_q14 {
      System.out.print(ele);
  }
  }
-    
+  
 }
